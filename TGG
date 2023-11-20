@@ -1,0 +1,10 @@
+item = "Sweet Potatoes"
+
+while True:
+    guess_the_food = input("What is the thanksgiving food?: ")
+    if guess_the_food == item:
+        print("correct")
+        break
+    else:
+        print("Try again")
+        
